@@ -36,6 +36,9 @@ Create charts
 Generate reports
 That's why companies use Python.
 
+<!-- Q2. Why is Python popular for Data Analysis? -->
+Answer: It has powerful libraries like Pandas, NumPy, and Matplotlib that make working with data fast and easy.
+
 <!-- Topic 4: Comments -->
 Comments are ignored by Python. They help explain your code.
 # This is a comment
@@ -92,7 +95,33 @@ Numeric Input
 age = int(input("Enter your age: "))
 print(age) -->
 
+What is Type Casting?
+Type casting means converting one data type into another.
 
+<!-- Why is it important? -->
+When you use input(), Python always stores the value as a string.
+
+Example:
+age = input("Enter your age: ")
+print(age)
+print(type(age))
+
+22
+<class 'str'>
+
+
+If you want to do calculations, you need to convert it to an integer.
+<!-- 
+age = int(input("Enter your age: "))
+
+print(age)
+print(type(age)) -->
+
+Output:
+22
+<class 'int'>
+
+-----------------------------------------------------------------------
 <!-- Topic 8: Basic Arithmetic -->
 a = 10
 b = 5
@@ -107,3 +136,16 @@ Output
 5
 50
 2.0
+-----------------------------------------------------------------------------
+Module 2: Control Statements
+Control statements decide which code runs.
+
+<!-- 1. if Statement -->
+Runs code only if the condition is True.
+
+Data Analyst Example
+<!-- 
+sales = 60000
+if sales > 50000:
+    print("Target Achieved") -->
+    
