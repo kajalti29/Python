@@ -86,3 +86,24 @@ Take input from the user
 <!-- 
 name = input("Enter your name: ")
 print("Hello", name) -->
+
+Numeric Input
+<!-- 
+age = int(input("Enter your age: "))
+print(age) -->
+
+
+<!-- Topic 8: Basic Arithmetic -->
+a = 10
+b = 5
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+
+Output
+15
+5
+50
+2.0
