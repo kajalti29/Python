@@ -35,3 +35,23 @@ Calculate sales
 Create charts
 Generate reports
 That's why companies use Python.
+
+<!-- Topic 4: Comments -->
+Comments are ignored by Python. They help explain your code.
+# This is a comment
+print("Hello")
+
+<!-- Topic 5: Variables -->
+A variable is a container used to store data(value) in python.
+<!-- 
+name = "Kajalti"
+age = 22
+salary = 25000
+
+print(name)
+print(age)
+print(salary) -->
+Output:- 
+Kajalti
+22
+25000
