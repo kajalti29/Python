@@ -148,4 +148,13 @@ Data Analyst Example
 sales = 60000
 if sales > 50000:
     print("Target Achieved") -->
-    
+
+
+<!-- 2. if-else -->
+Run one code if true atherwise run another
+<!-- 
+marks = 35
+if marks >= 40:
+    print("Pass")
+else:
+    print("Fail") -->
