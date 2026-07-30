@@ -55,3 +55,34 @@ Output:-
 Kajalti
 22
 25000
+
+<!-- Topic 6: Data Types -->
+Data type define the type of data a variable can store - like number, text and true/false values etc.
+| Data Type | Example         |
+| --------- | --------------- |
+| int       | `25`            |
+| float     | `85.5`          |
+| str       | `"Python"`      |
+| bool      | `True`, `False` |
+<!-- 
+age = 22
+height = 5.2
+name = "Kajalti"
+is_student = True
+
+print(type(age))
+print(type(height))
+print(type(name))
+print(type(is_student)) -->
+
+Output:- 
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+
+<!-- Topic 7: Input -->
+Take input from the user
+<!-- 
+name = input("Enter your name: ")
+print("Hello", name) -->

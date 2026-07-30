@@ -5,3 +5,4 @@ salary = 20000
 print(name)
 print(age)
 print(salary)
+
