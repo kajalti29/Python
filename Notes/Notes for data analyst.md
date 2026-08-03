@@ -307,7 +307,7 @@ Module 4: Strings ⭐⭐⭐⭐⭐
 Real datasets often contain text like customer names, cities, email addresses, product names, etc. Before analysis, you need to clean and process this text.
 
 <!-- Topic 1: What is a String? -->
-A string is a sequence of characters enclosed in single (' ') or double (" ") quotes.
+A string is a sequence of characters enclosed in quotes.
 <!-- 
 name = "Kajalti"
 
@@ -318,3 +318,187 @@ Output
 
 Kajalti
 <class 'str'>
+
+<!-- Topic 2: String Indexing -->
+text = "Python"
+print(text[0])
+print(text[2])
+print(text[5])
+
+Output
+P
+t
+n
+
+<!-- Negative Indexing -->
+Python
+P   y   t   h   o   n
+-6 -5 -4 -3 -2 -1
+<!-- 
+text = "Python"
+print(text[-1])
+print(text[-2]) -->
+
+Output 
+n
+o
+
+
+<!-- 4. String Methods ⭐⭐⭐⭐ -->
+(a) Upper()
+<!-- 
+name = "kajalti"
+print(name.upper()) -->
+
+(b) Lower()
+<!-- 
+name = "KAJALTI"
+print(name.lower()) -->
+
+(c) Title()
+<!-- 
+text = "data analyst"
+print(text.title()) -->
+
+(d) Capitalize()
+<!-- 
+text = "python"
+print(text.capitalize()) -->
+
+5. Split() ⭐⭐⭐⭐
+<!-- 
+text = "Python SQL Excel"
+print(text.split()) -->
+O/p
+['Python', 'SQL', 'Excel']
+
+6. Join() ⭐⭐⭐⭐
+<!-- 
+fruits = ["Apple", "Mango", "Banana"]
+print(" ".join(fruits)) -->
+
+
+----------------------------------------------------------------------------------------------------------
+1. List:- A list is used to store multiple values in a single variable.
+A list is ordered and changeable (mutable).
+
+* Create a List
+Lists are created using square brackets [].  
+
+<!-- list_name = [value1, value2, value3] --> 
+
+Example 
+<!-- 
+sales = [50000, 30000, 45000, 60000]
+print(sales) -->
+
+Output:
+[50000, 30000, 45000, 60000]
+
+*Indexing:-
+Indexing is used to access a specific value from a list.
+Python indexing starts from 0.
+Index      0         1         2
+          Indore    Bhopal    Ujjain
+<!-- 
+cities = ["Indore", "Bhopal", "Ujjain"]
+print(cities[0])
+print(cities[1])       -->
+
+Output:
+Indore
+Bhopal
+
+*Negative Indexing:-
+Negative indexing starts from the end.
+<!-- 
+cities = ["Indore", "Bhopal", "Ujjain"]
+print(cities[-1]) -->
+
+Ujjain
+
+
+*Slicing :- Slicing is used to access multiple values from a list.
+Syntax:- 
+list[start:stop]
+
+<!-- 
+sales = [10000, 20000, 30000, 40000, 50000]
+print(sales[1:4]) -->
+
+Output:
+[20000, 30000, 40000]
+The stop index is not included.
+
+* append():- The append() method is used to add an item at the end of a list.
+<!-- 
+cities = ["Indore", "Bhopal"]
+cities.append("Ujjain")
+print(cities) -->
+
+insert():- The insert() method is used to add an item at a specific position.
+<!-- 
+cities = ["Indore", "Ujjain"]
+cities.insert(1, "Bhopal")
+print(cities) -->
+
+* pop():-
+The pop() method is used to remove an item using its index.
+<!-- 
+cities = ["Indore", "Bhopal", "Ujjain"]
+cities.pop(1)
+print(cities) -->
+
+* remove() :- The remove() method is used to remove a specific value from a list.
+<!-- 
+cities = ["Indore", "Bhopal", "Ujjain"]
+cities.remove("Bhopal")
+print(cities) -->
+
+
+* sort() :- The sort() method is used to sort list values.
+<!-- Ascending Order -->
+<!-- 
+sales = [50000, 20000, 40000, 10000]
+sales.sort()
+print(sales) -->
+
+Output:
+[10000, 20000, 40000, 50000]
+---------------------------------------------------
+2. Tuple
+A tuple is used to store multiple values in a single variable.
+A tuple is ordered but unchangeable (immutable).
+
+<!-- Create a Tuple -->
+Tuples are created using parentheses ().
+<!-- 
+cities = ("Indore", "Bhopal", "Ujjain")
+print(cities) -->
+
+Output:
+('Indore', 'Bhopal', 'Ujjain')
+---------------------------------------------------
+11. Sets ⭐⭐⭐⭐
+ A set is used to store unique values.
+A set automatically removes duplicate values.
+<!-- 
+numbers = {1, 2, 2, 3, 4, 4}
+print(numbers) -->
+
+Output
+
+{1, 2, 3, 4}
+---------------------------------------------------------
+12. Dictionaries ⭐⭐⭐⭐⭐
+A dictionary stores data in key-value pairs.
+
+<!-- 
+employee = {
+    "name": "Kajalti",
+    "age": 22,
+    "salary": 25000
+}
+
+print(employee) -->
+--------------------------------------------------------------------------------------------------------
