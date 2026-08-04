@@ -1,18 +1,8 @@
 <!-- What is Python? -->
-Python is a high-level, easy-to-read programming language used for:
-Data Analysis ✅
-Data Science
-Machine Learning
-Automation
-Web Development
+Python is a high-level, interpreted, easy-to-read programming language.
+It is widely used in Data Analytics, Data Science, Machine Learning, automation and Web Development
 
-For a Data Analyst, Python is mainly used to:
-
-Read Excel/CSV files
-Clean data
-Analyze data
-Create charts
-Find insights
+As a Data Analyst, I use Python to clean, analyze, manipulate, and visualize data using libraries like Pandas, NumPy, and Matplotlib
 
 <!-- Features in python -->
 * Easy to learn
@@ -22,22 +12,18 @@ Find insights
 * Big libraries 
 
 
-<!-- Topic 2: Why Python for Data Analysts? -->
-Example:
-Suppose you have an Excel file with 10 lakh (1 million) rows.
-Excel becomes slow.
+<!-- 2. Why is Python used in Data Analytics? -->
+Python is used in Data Analytics because it makes data cleaning, data manipulation, analysis, and visualization easier. It has powerful libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
 
-Python can:
-Read the file quickly
-Remove duplicate data
-Fill missing values
-Calculate sales
-Create charts
-Generate reports
-That's why companies use Python.
+<!-- 3. What are the advantages of Python? -->
+The main advantages of Python are:
 
-<!-- Q2. Why is Python popular for Data Analysis? -->
-Answer: It has powerful libraries like Pandas, NumPy, and Matplotlib that make working with data fast and easy.
+Easy to learn and understand 
+Simple and readable syntax
+Open-source and free
+Large number of libraries
+Useful for data analysis and visualization
+
 
 <!-- Topic 4: Comments -->
 Comments are ignored by Python. They help explain your code.
@@ -95,6 +81,22 @@ Numeric Input
 age = int(input("Enter your age: "))
 print(age) -->
 
+<!-- 5. What are the different data types in Python? -->
+Common Python data types are:
+
+int → Integer numbers
+float → Decimal numbers
+str → Text/String
+bool → True or False
+list → Ordered and changeable collection
+tuple → Ordered and unchangeable collection
+dict → Key-value pairs
+set → Unordered collection of unique values
+
+<!-- 6. Difference between int, float, str, and bool -->
+Interview Answer:
+"int stores whole numbers, float stores decimal numbers, str stores text, and bool stores either True or False."
+
 What is Type Casting?
 Type casting means converting one data type into another.
 
@@ -121,6 +123,16 @@ Output:
 22
 <class 'int'>
 
+<!-- 8. What is the difference between = and ==? -->
+= is the assignment operator. It is used to assign a value to a variable.
+== is the comparison operator. It is used to checks whether two values are equal.
+
+Example:
+age = 22
+Here, = assigns 22 to age.
+
+age == 22
+This checks whether age is equal to 22. The result will be True.
 -----------------------------------------------------------------------
 <!-- Topic 8: Basic Arithmetic -->
 a = 10
@@ -491,8 +503,7 @@ Output
 {1, 2, 3, 4}
 ---------------------------------------------------------
 12. Dictionaries ⭐⭐⭐⭐⭐
-A dictionary stores data in key-value pairs.
-
+A dictionary is a collection of data stored in key-value pairs.
 <!-- 
 employee = {
     "name": "Kajalti",
@@ -502,3 +513,125 @@ employee = {
 
 print(employee) -->
 --------------------------------------------------------------------------------------------------------
+<!-- 4. Difference between List, Tuple, Set, and Dictionary. -->
+| Feature     | List      | Tuple     | Set         | Dictionary     |
+| ----------- | --------- | --------- | ----------- | -------------- |
+| Syntax      | `[]`      | `()`      | `{}`        | `{key: value}` |
+| Ordered     | Yes       | Yes       | No          | Yes*           |
+| Mutable     | Yes       | No        | Yes         | Yes            |
+| Duplicates  | Allowed   | Allowed   | Not allowed | Keys: No       |
+| Data Access | Index     | Index     | No indexing | Key            |
+| Example     | `[1,2,3]` | `(1,2,3)` | `{1,2,3}`   | `{"a":1}`      |
+
+<!-- 5. What is Indexing? -->
+Indexing means accessing an individual element from a sequence using its position.
+Python indexing starts from 0.
+<!-- 
+sales = [1000, 2000, 3000]
+print(sales[0]) -->
+
+<!-- 6. What is Slicing? -->
+Slicing means extracting a specific portion of a sequence.
+
+Syntax:
+list[start:stop]
+<!-- 
+sales = [1000, 2000, 3000, 4000, 5000]
+print(sales[1:4]) -->
+
+Output:
+[2000, 3000, 4000]
+The stop index is not included.
+
+7. What is a Mutable and Immutable Data Type?
+<!-- Mutable: -->
+A data type whose value can be changed after creation.
+
+Examples:
+List
+Dictionary
+Set
+sales = [1000, 2000]
+sales[0] = 1500
+
+<!-- Immutable: -->
+A data type whose value cannot be changed after creation.
+
+Examples:
+Integer
+Float
+String
+Tuple
+Boolean
+name = "Kajal
+
+<!-- 8. What is a For Loop? -->
+<!-- 10. Difference between For and While Loop -->
+Used to repeat code a fixed number of times.
+Runs while the condition is True.    
+
+
+<!-- 11. What are break, continue, and pass? -->
+<!-- break -->
+Stops the loop completely.
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+<!-- continue -->
+Skips the current iteration.
+
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+
+<!-- 12. What is a Function?     -->
+A function is a reusable block of code that performs a specific task.
+
+<!-- How do you create a Function in Python? -->
+We create a function using the def keyword.
+<!-- 
+def calculate_total(a, b):
+    return a + b
+result = calculate_total(100, 200)
+print(result)
+ -->
+
+Output:
+300
+Here, calculate_total() is a function
+
+<!-- 14. What are Function Arguments? -->
+Arguments are the actual values that we pass to a function when we call it.
+<!-- 
+def calculate_total(a, b):
+    return a + b
+calculate_total(100, 200) -->
+
+
+<!-- 15. Difference between Parameter and Argument -->
+Parameter:
+A variable defined in the function definition.
+
+Argument:
+The actual value passed to the function when calling it.
+<!-- 
+def greet(name):    # name is a parameter
+    print(name)
+
+greet("Kajal")      # "Kajal" is an argument -->
+
+
+<!-- 16. What is a Lambda Function? -->
+A lambda function is a small anonymous function written in a single line using the lambda keyword.
+<!-- 
+square = lambda x: x * x
+print(square(5)) -->
+
+Output:
+25
+
+<!-- 17. What is List Comprehension? -->
