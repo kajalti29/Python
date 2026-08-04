@@ -635,3 +635,54 @@ Output:
 25
 
 <!-- 17. What is List Comprehension? -->
+?
+
+<!-- 18. Difference between append() and extend() -->
+append()
+Adds one element at the end of a list.
+<!-- 
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers) -->
+
+Output:
+[1, 2, 3, 4]
+
+extend()
+Adds multiple elements from another iterable.
+<!-- 
+numbers = [1, 2, 3]
+numbers.extend([4, 5])
+print(numbers) -->
+
+Result:
+
+[1, 2, 3, 4, 5]
+
+19. Difference between remove(), pop(), and del?
+
+remove() → Value ke basis par item remove karta hai.
+pop() → Index ke basis par item remove karta hai aur item return karta hai.
+del → Index ya slice ke basis par item delete karta hai.
+
+20. What is Exception Handling?
+Exception handling ka use Python mein runtime errors ko handle karne ke liye hota hai, taaki program suddenly stop na ho.
+
+21. What is try-except?
+try-except ka use errors ko handle karne ke liye hota hai. try mein risky code aur except mein error handling code hota hai.
+
+22. What is the use of import in Python?
+import ka use kisi module ya library ko Python program mein use karne ke liye kiya jata hai.
+
+Example:
+import pandas as pd
+23. What is a Module?
+
+Module ek Python file (.py) hoti hai jisme reusable functions, classes, ya variables hote hain.
+
+24. What is a Library?
+Library reusable code ka collection hoti hai jo specific tasks ke liye use hoti hai.
+Example: Pandas, NumPy, Matplotlib.
+
+25. Difference between Module and Library?
+Module generally ek single Python file hoti hai, jabki Library reusable modules aur functionality ka broader collection hoti hai.
